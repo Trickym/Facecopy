@@ -1,0 +1,385 @@
+*{
+	padding:0px;
+	margin: 0PX;
+
+}
+
+.ms{
+	display: none;
+}
+
+header{
+	background:#415e9b;
+	height:77.8px;
+	border-bottom:0px solid white;
+	color: white;
+	/*width: 100%;*/
+	min-width:1500px;
+}
+
+.header{
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 245px;
+	font-family: Segoe UI;
+	font-weight: 650;
+float: left;
+width: 40%;
+}
+
+.details{
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom: 20px; 
+	float: left;
+
+}
+
+.email{
+	float: left;
+	padding-left: -20px;
+	padding-right: 12px;
+}
+.email label{
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.email input{
+	height: 20px;
+	width: 150px;
+	border:1px solid black;
+}
+.password label{
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+
+
+.password input{
+	height: 20px;
+	width: 150px;
+	border:1px solid black;
+
+}
+.password{
+	float: left;
+	padding-right: 12px;
+
+}
+
+.logins{
+float: left;
+padding-top: 17px;
+}
+
+.logins button{
+background-color: #4267B2;
+color:white;
+height: 25px;
+width: 45px;
+font-family: sans-serif;
+font-size: 12px;
+font-weight: bold;
+border-color: #29487d;
+border:1px solid #29487d;
+border-radius: 2px;
+
+}
+
+.logins button:hover{
+	background-color:#29487d;
+}
+
+.fg{
+	padding-top: 15px;
+	padding-right: 7px;
+	padding-left: 165px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: none;
+
+}
+.fg a{
+	text-decoration:none;
+	color: #9cb4d8;
+}
+
+
+.decoration{
+	padding-top: 20px;
+	float: left;
+	width: 52%;
+	font-family: sans-serif;
+	/*padding-left: 205px;*/
+	color:#0E385F;
+	height: 511.6px;
+}
+
+.decoration h2{
+	padding-left: 240px;
+font-size: 18px;
+}
+
+.decoration img{
+	padding-left: 240px;
+	width: 500px;
+	height:190px;
+}
+.bod{
+	min-width: 1500px;
+	height: 580px;
+	background:linear-gradient(white,#d9ddeb);
+}
+.sign{
+	float: left;
+	width: 48%;
+	/*padding-left:-10px;*/
+}
+
+.sign h1{
+	padding-left: 50px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 38px;
+	color: #333333;
+}
+
+.sign p{
+	padding-left: 50px;
+	font-family: sans-serif;
+	font-size: 22px;
+	color: #1D2129;
+}
+
+.name{
+		padding-left: 50px;
+}
+
+.name .name1{
+	height: 30px;
+	width:185px;
+	border:5px #90949C;
+	border-radius: 5px;
+}
+
+.name .name2{
+	height: 30px;
+	width:185px;
+	border:5px #90949C;
+	border-radius: 5px;
+}
+
+input,input::-webkit-input-placeholder{
+	font-size: 18px;
+	padding-left: 2px;
+}
+
+.mob{
+		padding-left: 50px;
+}
+
+.mob .mob1{
+	height: 30px;
+	width:390px;
+	border:5px #90949C;
+	border-radius: 5px;
+}
+
+.newpass{
+		padding-left: 50px;
+}
+
+.newpass .passwa{
+	height: 30px;
+	width:390px;
+	border:5px #90949C;
+	border-radius: 5px;
+
+}
+
+.dob{
+	padding-bottom: 15px;
+	padding-left: 50px;
+}
+
+.dob label{
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #90949C;
+	font-size: 18px;
+}
+
+
+.dob select .days{
+	width: 30px;
+	height: 56.8px;
+	padding: 5px;
+}
+
+.dob select .months{
+	width: 30px;
+	height: 73.4px;
+	padding: 5px;
+}
+
+.dob select .year{
+	width: 30px;
+	height: 63.2px;
+	padding: 5px;
+}
+
+
+
+.dob img{
+	width:15px;
+	height:15px;
+	border-radius: 45px;
+}
+
+
+.gender{
+	padding-left: 50px;
+}
+
+.gender img{
+	width:15px;
+	height:15px;
+	padding-left: 1px;
+	border-radius: 47px;
+}
+
+
+.gender div{
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #90949C;
+	font-size: 18px;
+
+}
+
+.gender label{
+	font-size: 18px;
+	font-family: sans-serif;
+	padding-right: 15px;
+}
+
+.gender small{
+	font-family: sans-serif;
+	color: #777777;
+}
+
+.gender small a{
+	text-decoration:none;
+	color: #385898; 
+}
+
+.sgnbtn{
+	padding-left: 50px;
+}
+
+.signup{
+	width:194px;
+	height:39.2px;
+	background-color: #69A74E;
+	margin:0px;
+	border:1px solid green;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.end{
+	padding-top: 20px;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #666666;
+	padding-left: 50px;
+}
+
+.end a{
+	text-decoration:none;
+	color: #385898
+}
+
+
+
+
+
+
+.btn4{
+	padding-left: 235px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ .btn5{
+	color: #fff;
+	background-color: #4267B2;
+	border:none;
+	width:57px;
+	font-family: sans-serif;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 2px;
+
+}
+
+
+
+a{
+	text-decoration:none;
+}
+
+
+ul li{
+	list-style: none;
+	display: inline;
+	padding-right: 2px;
+	padding-right: 10px;
+	font-family: sans-serif;
+	font-size: 12px;
+	
+}
+
+.fas{
+	color: #90949C;
+}
+
+ul li a{
+color: #385898;
+}
+
+.ending {
+	padding-top: 60px;
+	min-width: 1200px;
+	/*text-align: center;*/
+	padding-left: 205px;
+}
+
+.line{
+	width: 980px;
+	height: 0.5px;
+	border-radius: 0px;
+	background-color: #CCD0D5;
+
+}
+
+.ending small{
+	color: #90949C;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.signup a{
+	color: white;
+}
+
+
+.logins a{
+	color: white;
+}
